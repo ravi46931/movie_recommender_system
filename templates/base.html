@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='images/icons8-movie-94.png') }}"
+    />
+    <title>Movie Recommendor system</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/mediaqueries.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background: rgb(218, 236, 243);
+        /* background: rgb(207, 229, 238); */
+        /* background: rgb(186, 222, 236); */
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav id="desktop-nav" class="fixed-nav">
+        <ul class="nav-links">
+          <li><a href="/" class="nav-link">Home</a></li>
+          <li><a href="/about" class="nav-link" data-url="/about">About</a></li>
+          <li>
+            <a href="/recommend" class="nav-link" data-url="/recommend"
+              >Recommendation</a
+            >
+          </li>
+          <li>
+            <a href="/contact" class="nav-link" data-url="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Movie Recommender System</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="/" onclick="toggleMenu()">Home</a></li>
+          <li><a href="/about" onclick="toggleMenu()">About</a></li>
+          <li>
+            <a href="/recommend" onclick="toggleMenu()">Recommendation</a>
+          </li>
+          <li><a href="/contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <main class="conten">{% block body%} {% endblock body%}</main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

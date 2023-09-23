@@ -1,0 +1,63 @@
+{% extends 'base.html' %} 
+{% block body%}
+<body>  
+    <section class="about-me">
+        <div class="content-about">
+            <h2>Hello there! I am Ravi Kumar</h2>
+            <p>A passionate data enthusiast with a strong educational background. 
+                I have completed my Master's degree in Mathematics from the 
+                Indian Institute of Technology Jodhpur, India. During my graduation 
+                I have taken the Machine Learning, Deep Learning, Optimization, Financial Engineering,
+                 DSA, Computer graphics courses and made respective projects to upskill myself.</p>
+        </div>
+    </section>
+    <div class="profile-about">
+        <img src="{{ url_for('static', filename='images/profile pic.jpg') }}" alt="Ravi Kumar">
+    </div>
+
+    <section class="education-about">
+        <h2><u>Education</u></h2>
+        <ul>
+            <li>Master of Science (M.Sc.) in Mathematics from Indian Institute of Technology Jodhpur</li>
+            <li>Bachelor of Science (B.Sc.) in Physics, Chemistry, Mathematics</li>
+        </ul>
+    </section>
+
+
+    <section class="aspirations">
+        <h2><u>Professional Aspirations</u></h2>
+        <p>My academic journey has ignited a deep interest in the field of data science.
+             I'm excited about applying my skills to real-world problems, using data to 
+             uncover insights, and making data-driven recommendations.I am currently actively 
+             seeking opportunities in the exciting and dynamic field of data science, where I 
+             can apply my analytical skills and leverage data-driven insights to solve real-world problems.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>Data Analysis</li>
+            <li>Machine Learning</li>
+            <li>Python Programming</li>
+            <li>Data Visualization</li>
+            <li>Statistical Modeling</li>
+            <li>SQL</li>
+            <li>Data Cleaning and Preprocessing</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section class="connect-about">
+        <h2>Connect with Me</h2>
+    <div class="social_media-about">
+        <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="Ravi Kumar">
+        <a href="https://www.linkedin.com/in/ravi-kumar-b87357219/" target="_blank" class="bhy"><b>Visit LinkedIn</b></a><br>
+        <img src="{{ url_for('static', filename='images/github.png') }}" alt="Ravi Kumar">
+        <a href="https://github.com/ravi46931" target="_blank" class="bhy"><b>Visit Github</b></a><br>
+    </div>
+     </section>
+</body>
+</html>
+
+</body>
+{% endblock body%}

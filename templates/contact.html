@@ -1,0 +1,62 @@
+{% extends 'base.html' %} 
+{% block body%}
+<body>
+    <div class="contact_me">
+        Contact Me
+    </div>
+    <div class="about_section">
+        <div class="contact_head">
+        I'm always excited to connect with fellow professionals, collaborators, and enthusiasts 
+        in the fields of data science, and technology.<br>
+        </div>
+        
+        <div class="social_media-contact">
+            <div class="connct">
+                
+                <img src="{{ url_for('static', filename='images/email.png') }}" alt="Ravi Kumar">
+                <a href="mailto:ravikumar46931@gmail.com" class="bhy"><b>&ensp;Send an Email</b></a>
+              
+                <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="Ravi Kumar">
+                <a href="https://www.linkedin.com/in/ravi-kumar-b87357219/" target="_blank" class="bhy"><b>&ensp;LinkedIn</b></a><br>
+                
+            </div>
+            <div class="connct1">
+                
+                <img src="{{ url_for('static', filename='images/github.png') }}" alt="Ravi Kumar">
+                <a href="https://github.com/ravi46931" target="_blank" class="bhy"><b>&ensp;Github</b></a><br>
+              
+                <img src="{{ url_for('static', filename='images/data-science.png') }}" alt="Ravi Kumar">
+                <a href="https://ravikumar46931.me" target="_blank" class="bhy"><strong>&ensp; Portfolio website</strong></a><br>
+            </div>
+
+        </div>
+
+        <div class="social_contact">
+            <div class="social_link">
+            <img src="{{ url_for('static', filename='images/email.png') }}" alt="Ravi Kumar">
+            <a href="mailto:ravikumar46931@gmail.com" class="bhy"><b>&ensp;Send an Email</b></a><br>
+            </div>
+
+            <div class="social_link">
+            <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="Ravi Kumar">
+            <a href="https://www.linkedin.com/in/ravi-kumar-b87357219/" target="_blank" class="bhy"><b>&ensp;LinkedIn</b></a><br>
+            </div>
+            
+            <div class="social_link">
+            <img src="{{ url_for('static', filename='images/github.png') }}" alt="Ravi Kumar">
+            <a href="https://github.com/ravi46931" target="_blank" class="bhy"><b>&ensp;Github</b></a><br>
+            </div>
+
+            <div class="social_link">
+            <img src="{{ url_for('static', filename='images/data-science.png') }}" alt="Ravi Kumar">
+            <a href="https://ravikumar46931.me" target="_blank" class="bhy"><strong>&ensp; Portfolio website</strong></a><br>
+            </div>
+        </div>
+    </div>
+
+        <div class="copyright">
+            <p>Copyright &#169; 2023 Ravi Kumar. All Rights Reserved.</p>
+        </div>
+
+</body>
+{% endblock body%}

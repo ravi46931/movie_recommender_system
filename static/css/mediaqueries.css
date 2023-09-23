@@ -1,0 +1,386 @@
+@media screen and (max-width: 1400px) {
+  .fixed-nav {
+    position: relative;
+  }
+
+  .content-about,
+  .aspirations,
+  .skills,
+  .connect-about,
+  .education-about ul {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .content-about {
+    margin-top: -80px;
+  }
+
+  .education-about ul {
+    padding-left: 0;
+  }
+
+  .nav-links {
+    margin-left: auto;
+  }
+
+  .title {
+    margin-top: -60px;
+  }
+
+  .cont {
+    display: block;
+  }
+
+  .contai {
+    margin-left: 25%;
+    max-width: 50%;
+  }
+
+  .cont_image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .cont_image img {
+    width: 50%;
+  }
+
+  .btn_recommend {
+    margin-bottom: 35px;
+  }
+
+  .contact_me {
+    margin-top: -5rem;
+  }
+
+  .contact_head {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+  }
+
+  .connct a {
+    margin-right: 5rem;
+  }
+
+  .connct,
+  .connct1 {
+    margin-left: 5%;
+  }
+ 
+  .connct1 a {
+    margin-right: 4.5rem;
+  }
+
+  .title_predict {
+    margin-top: -75px;
+    margin-bottom: 60px;
+  }
+
+  .predict {
+    margin-left: 2%;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .content-home-container {
+    margin-top: -3rem;
+  }
+
+  .content-home {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image-home {
+    display: none;
+  }
+
+  .image-home1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+
+  .justify-home-p {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+  }
+
+  .home_button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-about {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -75px;
+  }
+
+  .education-about ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+
+  .aspirations,
+  .skills,
+  .connect-about {
+    margin-right: 45px;
+    margin-left: 45px;
+  }
+
+  .social_media-about img {
+    width: 27px;
+  }
+
+  .social_media-about a {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-home-container {
+    flex-direction: column;
+  }
+
+  .content-home {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .image-home {
+    display: none; /* Change the order of the image to make it appear below */
+  }
+  .image-home1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-home1 img {
+    width: 250px;
+    height: 253px;
+  }
+
+  .justify-home-p {
+    margin-top: 4rem;
+  }
+
+  .home_button {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* about  */
+  .about_me {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  .social_media-about img {
+    width: 20px;
+  }
+
+  .content-about {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .connect-about,
+  .skills,
+  .aspirations {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .profile-about img {
+    margin-right: 0;
+  }
+
+  .education-about li {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .profile-about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .education-about ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #desktop-nav,
+  .fixed-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    margin-bottom: -2rem;
+  }
+  #hamburger-nav .logo {
+    margin-right: 15%;
+    padding: 1rem;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .hamburger-menu {
+    margin-top: 1.15rem;
+  }
+  /* recommend */
+  .cont {
+    display: block;
+  }
+  .cont_image {
+    display: flex;
+    justify-content: center;
+  }
+  .cont_image img {
+    width: 75%;
+  }
+  .contai {
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+    margin-left: 15%;
+    max-width: 70%;
+  }
+
+  .title {
+    justify-content: center;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .disc_recommend {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .btn_recommend {
+    margin-bottom: 25px;
+  }
+
+  /* contact  */
+  .contact_me {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: -4.5rem;
+  }
+
+  .contact_head {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    font-size: medium;
+    text-align: justify;
+  }
+
+  .social_media-contact {
+    display: none;
+  }
+  .social_contact {
+    display: block;
+    margin-top: 25px;
+  }
+  .social_contact img {
+    width: 25px;
+  }
+
+  .social_link {
+    margin-bottom: 20px;
+    margin-left: 25%;
+    display: flex;
+  }
+
+  .copyright {
+    margin-top: 6rem;
+  }
+
+  .copyright p {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  /* predict */
+  .title_predict {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: -4rem;
+  }
+
+  .movie_gallary {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movie_pic {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .movie_pic p {
+    justify-content: center;
+    display: flex;
+    font-weight: 555;
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  .movie_pic img {
+    border-radius: 1rem;
+  }
+
+  .predict {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #hamburger-nav .logo {
+    margin-top: 35px;
+  }
+  .hamburger-menu {
+    margin-right: 10px;
+  }
+  .title-home {
+    text-align: center;
+  }
+  .content-about {
+    margin-top: -60px;
+  }
+  .contact_me {
+    font-size: 1.7rem;
+    margin-top: -100px;
+  }
+  .title_predict {
+    margin-top: -90px;
+  }
+}

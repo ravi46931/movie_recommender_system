@@ -1,0 +1,42 @@
+{% extends 'base.html' %} {% block body%}
+<div class="content-home-container">
+  <div class="content-home">
+    <div class="title-home">
+      <h4>Movie Recommendation System</h4>
+    </div>
+    <div class="subtitle-home">
+      <span>Data Science Project</span>
+    </div>
+    <div class="image-home1">
+      <img
+        src="{{ url_for('static', filename='images/homepng.png') }}"
+        alt="Image"
+        width="470"
+        height="470"
+      />
+    </div>
+    <p class="justify-home-p">
+      Welcome to the recommendation system project. Recommendation systems are
+      widely used to enhance user experiences, increase engagement, and drive
+      user satisfaction. They can benefit businesses by boosting sales, user
+      retention, and user engagement while assisting users in finding new goods,
+      films, music, articles, and other media. Here a movie recommendation
+      systion is created. Here recommendation is based on the content of the
+      movies. On designing this project natural language processing is used to
+      convert the content of the movie into vectors (contains numbers). <br />
+      <span style="font-size: 19px">Check out the project.</span>
+    </p>
+    <div class="home_button">
+    <a href="/recommend" class="btn btn-primary">Live Demo</a>
+  </div>
+  </div>
+  <div class="image-home">
+    <img
+      src="{{ url_for('static', filename='images/homepng.png') }}"
+      alt="Image"
+      width="470"
+      height="470"
+    />
+  </div>
+</div>
+{% endblock body%}

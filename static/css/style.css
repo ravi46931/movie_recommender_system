@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* index html  */
+.title{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .form-select{
+    background-color: rgb(188 198 220);
+    font-size: 20px;
+    width: 30rem;
+  }
+
+  .contai{
+    max-width: 500px;
+    justify-content: center;
+    margin-left: 230px;
+  }
+ 
+  .form-select, .items{
+    cursor: pointer;
+  }
+
+select option:checked {
+  background-color: #7e9ab3; /* Change the background color of the selected option */
+  color: #fff; /* Change the text color of the selected option */
+}
+
+select {
+  height: 45px;
+}
+
+.sty{
+  color: rgb(0, 0, 0) !important;
+}
+
+.btn-outline-primary{
+  background-color: rgb(164, 217, 219);
+  color: rgb(0, 0, 0);
+}
+
+
+/* base html */
+nav a:hover{
+  transform: scale(1.13); /* Enlarge the item on hover */
+}
+
+nav a {
+  align-items: center;
+  font-size: 1px;
+  transition: transform 0.2s;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;  
+}
+
+nav li {
+  margin: 0 8px;
+}
+
+a:hover{
+  color: rgb(247, 8, 8);
+  text-underline-offset: 0.4rem;
+}
+
+.nav-links {
+  gap: 1.8rem;
+  list-style: none;
+  font-size: 1.2rem;
+  margin-right: 45px;
+  margin-left: 55rem;  
+}
+
+nav, .nav-links{
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  /* background: rgb(207, 229, 238); */
+  background: rgb(218, 236, 243);
+  z-index: 100; 
+}
+
+.conten {
+  margin-top: 140px; 
+}
+
+/* About  */
+
+.about-me {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.profile-about{
+  text-align: center;
+}
+
+.profile-about img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-right: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content-about {
+  flex-grow: 1;
+  text-align: justify;
+  margin-left: 330px;
+  margin-right: 330px;
+  margin-top: -2.8rem;
+}
+
+/* here h2 and p are for all pages */
+h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Style the Education section */
+.education-about {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.education-about h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+
+}
+
+.education-about ul {
+  list-style-type: none;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.education-about li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style the Aspirations section */
+.aspirations {
+  margin-top: 40px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+  margin-left: 330px;
+  margin-right: 330px;
+  
+}
+
+.aspirations h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.aspirations p{
+  text-align: justify;
+}
+
+/* Style the Skills section */
+.skills {
+  margin-top: 40px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+  margin-left: 330px;
+  margin-right: 330px;
+  
+}
+
+.skills h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.skills li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style the Interests section */
+.interests {
+  margin-top: 40px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+}
+
+.interests h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Style the Connect section */
+.connect-about {
+  margin-top: 40px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+  margin-left: 330px;
+  margin-right: 330px;
+}
+
+.connect-about h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+ text-align: center;
+}
+.social_media-about{
+  text-align: center;
+  margin-bottom: 250px;
+}
+
+.social_media-about img{
+  width: 25px;
+  height: 1.8%;
+}
+
+/* Contact  */
+.about_section{
+  margin: auto;
+  text-align: center;
+}
+
+.bhy{
+  text-decoration: none;
+  color: black;
+  text-size-adjust: 2rem;
+}
+
+.bhy:hover{
+  color: rgb(186, 16, 109);
+  transform: scale(1.13);
+}
+
+/* index.html */
+.content-home-container {
+  display: flex; /* Use flexbox to control layout */
+  align-items: center; /* Vertically center content */
+}
+
+.content-home {
+  text-align: justify;
+  margin-right: 120px;
+  margin-left: 75px;
+  margin-top: -2em;
+  flex: 1; /* Allow the content div to expand and fill available space */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.image-home {
+  margin-right: 75px;
+  margin-top: -35px;
+  flex-shrink: 0; /* Prevent the image div from shrinking */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.title-home, .subtitle-home{
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.title-home{
+  margin-bottom: -5px;
+}
+
+.subtitle-home{
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #2f2a2a;
+}
+
+/* base.html */
+/* Code for underline on hover on the navbar */
+.nav-link {
+  /* Transition for smooth effect (optional) */
+  transition: color 0.03s ease, border-bottom-color 0.03s ease;
+}
+
+.nav-link::after {
+  content: ""; 
+  display: block; 
+  width: 100%;
+  height: 1.5px; 
+  background-color: #8d18f3f5; 
+  bottom: 0;
+  left: 0; 
+  transform: scaleX(0); 
+  transform-origin: left center; 
+  transition: transform 0.03s ease; 
+}
+
+.nav-link:hover::after{ 
+  transform: scaleX(1); 
+}
+
+/* Add styles to the active link */
+.nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 0.45em ;
+}
+
+/* recommend  */
+.disc_recommend{
+  justify-content: center;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.btn_recommend{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  
+}
+
+.cont{
+  display: flex;
+}
+
+/* contact  */
+.contact_head{
+  font-size: 18px;
+  margin-left: 330px;
+  margin-right: 330px;
+}
+
+.social_media-contact{
+  text-align: center;
+  margin-bottom: 250px;
+}
+
+.social_media-contact img{
+  width: 1.4%;
+  height: 1.4%;
+}
+
+/* predict  */
+.title_predict{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: -2rem;
+}
+
+.predict{
+  display: flex;
+  margin-left: 80px;
+}
+
+.recommended_movies_predict{
+  margin-bottom: 25px;
+  margin-left: 35px;
+}
+
+.recommended_movies_predict p{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 1.40em;
+  width: 280px;
+ 
+}
+
+.recommended_movies_predict img {
+  transition: transform 0.3s;  /*Add a smooth transition effect */
+  cursor: pointer;
+  border-radius: 10px;
+  width: 280px;
+}
+
+.recommended_movies_predict:hover img {
+  transform: scale(1.1); /* Slightly scale up the image on hover*/
+}
+
+/* contact  */
+.contact_me{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: -1.25rem;
+}
+
+.copyright{
+  text-align: center;
+  color: rgb(102, 114, 114);
+}
+
+.connct{
+  display: flex;
+  justify-content: center;
+  margin-left: 190px;
+  margin-top: 35px;
+}
+
+.connct a{
+  margin-right: 12rem;
+}
+
+.connct img{
+  width: 2.0%
+}
+
+.connct1{
+  display: flex;
+  justify-content: center;
+  margin-left: 255px;
+  margin-top: 45px;
+}
+
+.connct1 a{
+  margin-right: 13.8rem;
+}
+
+.connct1 img{
+  width: 2.0%
+}
+
+
+
+/* From here  */
+.image-home1, .social_contact, .movie_gallary{
+  display: none;
+}
+
+
+
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu{
+  position: relative;
+  display: inline-block;
+  /* display: inline; */
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #e8d5bf;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+  display: block;
+  padding: 8px;
+  text-align: center;
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+  transition:  all 0.3 ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+ opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}

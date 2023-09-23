@@ -1,0 +1,119 @@
+{% extends 'base.html' %} 
+{% block body%}
+<body>
+    <div class="title_predict"> Recommended Movies for "{{movies}}".</div>
+
+<!-- First 4 movies  -->
+    <div class="predict">
+    <div class="recommended_movies_predict">
+        <img src="{{poster[0]}}" alt="Movie Poster">
+        <p>{{recommended_movies[0]}}</p>
+    </div>
+    
+    <div class="recommended_movies_predict">
+        <img src="{{poster[1]}}" alt="Movie Poster">
+        <p>{{recommended_movies[1]}}</p>
+    </div>
+    <div class="recommended_movies_predict">
+        <img src="{{poster[2]}}" alt="Movie Poster">
+        <p>{{recommended_movies[2]}}</p>
+    </div>
+    <div class="recommended_movies_predict">
+        <img src="{{poster[3]}}" alt="Movie Poster">
+        <p>{{recommended_movies[3]}}</p>
+    </div>
+
+    </div>
+
+<!-- from 5th movie to 8th movie -->
+    <div class="predict">
+    <div class="recommended_movies_predict">
+        <img src="{{poster[4]}}" alt="Movie Poster">
+        <p>{{recommended_movies[4]}}</p>
+    </div>
+    <div class="recommended_movies_predict">
+        <img src="{{poster[5]}}" alt="Movie Poster">
+        <p>{{recommended_movies[5]}}</p>
+    </div>
+    <div class="recommended_movies_predict">
+        <img src="{{poster[6]}}" alt="Movie Poster">
+        <p>{{recommended_movies[6]}}</p>
+    </div>
+    <div class="recommended_movies_predict">
+        <img src="{{poster[7]}}" alt="Movie Poster">
+        <p>{{recommended_movies[7]}}</p>
+    </div>
+    </div>
+
+<!-- lst 2 movies -->
+    <div class="predict">
+    <div class="recommended_movies_predict">
+        <img src="{{poster[8]}}" alt="Movie Poster">
+        <p>{{recommended_movies[8]}}</p>
+    </div>
+    <div class="recommended_movies_predict">
+        <img src="{{poster[9]}}" alt="Movie Poster">
+        <p>{{recommended_movies[9]}}</p>
+    </div>
+    </div>
+
+
+
+    <div class="movie_gallary">
+        <div class="movie_pic">
+            <img src="{{poster[0]}}" alt="Movie Poster">
+            
+            <p>{{recommended_movies[0]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[1]}}" alt="Movie Poster">
+            <p>{{recommended_movies[1]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[2]}}" alt="Movie Poster">
+            <p>{{recommended_movies[2]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[3]}}" alt="Movie Poster">
+            <p>{{recommended_movies[3]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[4]}}" alt="Movie Poster">
+            <p>{{recommended_movies[4]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[5]}}" alt="Movie Poster">
+            <p>{{recommended_movies[5]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[6]}}" alt="Movie Poster">
+            <p>{{recommended_movies[6]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[7]}}" alt="Movie Poster">
+            <p>{{recommended_movies[7]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[8]}}" alt="Movie Poster">
+            <p>{{recommended_movies[8]}}</p>
+        </div>
+
+        <div class="movie_pic">
+            <img src="{{poster[9]}}" alt="Movie Poster">
+            <p>{{recommended_movies[9]}}</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+{% endblock body%}
