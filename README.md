@@ -1,1 +1,1 @@
-Here is the movie recommendation system
+This is a movie recommendation system project.
